@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-const int N=9;
+// const int N=9;
 void quick_sort(int a[],int begin,int end){
 	if(begin>end){
 		return;
 	}
-	int temp=a[begin];  //·½±ãºóÃæ tempºÍi=jÊ±¶ÔÓ¦µÄÖµ½»»»
+	int temp=a[begin];  //æ–¹ä¾¿åé¢ tempå’Œi=jæ—¶å¯¹åº”çš„å€¼äº¤æ¢
 	int i=begin;
 	int j=end;
 	while(i != j){
